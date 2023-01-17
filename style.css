@@ -1,0 +1,62 @@
+body{
+	margin: 0px;
+	padding:0px;
+	background-color: rgb(3 10 47);
+}
+#title{
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+	font-family: 'Chivo Mono', monospace;
+	letter-spacing: 5px;
+	text-shadow: 3px 3px 0px rgb(103, 0, 255);
+}
+.set{
+	margin: 0px 0px 0px 26%; 
+}
+.drum{
+	border: 3px solid rgb(103,0,255);
+}
+.w{
+	background-image: url("images/tom1.png");
+
+}
+.a{
+	background-image: url("images/tom2.png");
+}
+.s{
+	background-image: url("images/tom3.png");
+}
+.d{
+	background-image: url("images/tom4.png");
+}
+.j{
+	background-image: url("images/snare.png");
+}
+.k{
+	background-image: url("images/crash.png");
+}
+.l{
+	background-image: url("images/kick.png");
+}
+.set button{
+	margin-top: 20px;
+	padding: 20px;
+	color: black;
+	width: 70px;
+	line-height: ;
+	font-size: 28px;
+	margin-left: 20px;
+	border-radius: 5px;
+	box-shadow:  0px 0px 0px  white;
+	font-family: 'Chivo Mono', monospace;
+}
+.set button:hover{
+	margin-top: 5px;
+	padding: 20px;
+	background-color: white;
+	border: 3px solid rgb(103 0 255);
+	margin-left: 20px;
+	box-shadow:  3px 3px 0px  rgb(103, 0, 255);
+	font-family: 'Chivo Mono', monospace;
+}
